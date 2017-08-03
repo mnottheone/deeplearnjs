@@ -22,17 +22,5 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
-## Filing GitHub issues
-
-Please follow the guidelines specified in the
-[ISSUE_TEMPLATE](https://github.com/tensorflow/tfjs/blob/master/ISSUE_TEMPLATE.md)
-file.
-
-## Good places to start
-
-Consider joining the [tfjs mailing list](https://groups.google.com/a/tensorflow.org/d/forum/tfjs)
-to discuss the development of TensorFlow.js. If you're working on anything
-substantial it's better to discuss your design before submitting a PR.
-If you're looking for tasks to work on, we also mark issues as ["help wanted"](https://github.com/tensorflow/tfjs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
-
-
+We require unit tests for most code, instructions for running our unit test
+suites are in the documentation.

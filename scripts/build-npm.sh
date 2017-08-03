@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright 2018 Google LLC. All Rights Reserved.
+# Copyright 2017 Google Inc. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,13 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # =============================================================================
-
-# Exit immediately if a command exits with a non-zero status.
-set -e
-
-rimraf dist/
-yarn
-yarn build
-rollup -c
-echo "Stored standalone library at dist/tf(.min).js"
-npm pack
+node_modules/.bin/tsc
+cd dist/
+npm pack ../
+cd ..
+echo 'Stored npm package at dist/deeplearn-version.tgz'
