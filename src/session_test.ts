@@ -20,9 +20,7 @@ import {NDArrayMathGPU} from './math/math_gpu';
 import {Array1D, NDArray, Scalar} from './math/ndarray';
 import {FeedDictionary, FeedEntry, Session} from './session';
 import {SGDOptimizer} from './sgd_optimizer';
-import {MomentumOptimizer} from './momentumOptimizer';
-import {AdagradOptimizer} from './adagrad_optimizer';
-import {RmspropOptimizer} from './rmsprop_optimizer';
+import {MomentumOptimizer} from './momentum_optimizer';
 
 import * as test_util from './test_util';
 
